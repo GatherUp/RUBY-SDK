@@ -12,7 +12,7 @@ module GetFiveStars
                 request.set('clientId', @client_id)
                 token = ""
                 request.get_parameters.sort.map do |key,value|
-                    token += key + value
+                    token += key.to_s + value.to_s
                 end
                 request.set('hash', Digest::SHA256.hexdigest(@private_key + token))
             end

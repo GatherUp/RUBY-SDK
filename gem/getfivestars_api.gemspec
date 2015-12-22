@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'getfivestars_api'
-  s.version     = '1.0.3'
+  s.version     = '1.0.4'
   s.date        = '2015-12-22'
   s.summary     = "SDK"
   s.description = "GetFiveStars SDK"
